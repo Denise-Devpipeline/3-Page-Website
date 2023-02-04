@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.top-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-navigation > .links-wrapper > .link-wrapper div {
+  justify-content: space-between;
+  justify-items: right;
+}
+
+.top-navigation a {
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 5px;
+}
+
+.top-navigation > .links-wrapper > .link-wrapper {
+  margin-bottom: 5px;
+}
+
+.logo-wrapper img {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* .page-container {
+  flex-direction: column;
+}
+
+body {
+  background-color: blue;
+} */

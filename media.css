@@ -1,0 +1,23 @@
+/* @media (max-width: 600px) {
+  .nabar {
+    flex-direction: column;
+  }
+}
+
+/* .hours-wrapper {
+    border: 1px;
+    height: 350px;
+    justify-content: space-around;
+  } */
+
+/* body {
+    background-color: aquamarine;
+    color: goldenrod;
+  } */
+
+/* Another break point */
+/* @media (min-width: 300px) {
+  .nabar {
+    flex-direction: column;
+  }
+} */
