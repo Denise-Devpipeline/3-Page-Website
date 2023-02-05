@@ -1,0 +1,31 @@
+.career-image-container {
+  background-image: url("/photos/office-unsplash.jpg");
+  min-height: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.career-image-container > .career-image-content {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  color: black;
+  padding: 10px 40px;
+  background-color: rgb(251, 189, 144);
+  opacity: 8;
+  font-size: 1.85rem;
+  letter-spacing: 10px;
+}
+
+.careers-container {
+  background-color: rgb(233, 245, 255);
+  width: 70%;
+}
+
+.careers-list p {
+  font-size: 12px;
+  width: fit-content;
+}
