@@ -5,9 +5,46 @@ body {
   margin: 0;
 }
 
+.image-container {
+  background-image: url("/photos/mtn-sunset-unsplash.jpg");
+  min-height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image-container > .image-content {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  color: black;
+  padding: 10px 40px;
+  background-color: rgb(251, 189, 144);
+  opacity: 8;
+  font-size: 1.85rem;
+  letter-spacing: 10px;
+}
+
 .top-navigation {
   display: flex;
+  position: fixed;
+  padding-top: 25px;
+  padding-left: 25px;
+  text-align: center;
   justify-content: space-between;
+  background-color: rgb(208, 208, 209);
+  width: 100%;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.top-navigation > .links-wrapper a {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  text-decoration: none;
 }
 
 div {
@@ -15,32 +52,78 @@ div {
   justify-content: space-between;
 }
 
-.top-navigation > .links-wrapper > .link-wrapper div {
-  justify-content: space-between;
-  justify-items: right;
+/* NAV LINKS */
+a:hover {
+  transform: scale(1.1);
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(99, 99, 111);
+}
+a:active {
+  color: darkorange;
 }
 
-.top-navigation a {
+/* HOME PAGE GRID */
+
+.paragrah-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.paragrah-container div {
+  gap: 30px;
+  padding-top: 2rem;
+}
+
+.loan-admin {
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.la-services {
+  grid-row: span 3;
+  gap: 50px;
+}
+
+.services {
+  font-size: 12px;
+  grid-column: ;
+}
+
+.other-services {
+}
+
+/* .paragraph-container > .paragraph {
+  grid-template-columns: 33%;
+  grid-template-rows: 50%;
+  grid-column: span 3;
+} */
+
+/* ******************STUFF I ENDED UP NOT NEEDING....I THINK!??? */
+
+/* .top-navigation > .links-wrapper > .link-wrapper:hover {
+  background-color: rgb(235, 230, 227);
+  color: black;
+} */
+
+/* .top-navigation a {
   text-decoration: none;
   color: inherit;
   margin-bottom: 5px;
-}
+} */
 
-.top-navigation > .links-wrapper > .link-wrapper {
+/* .top-navigation > .links-wrapper > .link-wrapper {
   margin-bottom: 5px;
-}
+} */
 
-.logo-wrapper img {
+/* .logo-wrapper img {
   width: 100%;
-  height: 400px;
+  height: 100px;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-/* .page-container {
-  flex-direction: column;
-}
-
-body {
-  background-color: blue;
 } */
