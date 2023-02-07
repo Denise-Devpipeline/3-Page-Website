@@ -28,12 +28,12 @@ body {
 
 .top-navigation {
   display: flex;
-  position: fixed;
+  position: sticky;
   padding-top: 25px;
   padding-left: 25px;
   text-align: center;
   justify-content: space-between;
-  background-color: rgb(208, 208, 209);
+  background-color: rgb(237, 193, 99);
   width: 100%;
   height: 50px;
   font-size: 1.2rem;
@@ -47,11 +47,6 @@ body {
   text-decoration: none;
 }
 
-div {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* NAV LINKS */
 a:hover {
   transform: scale(1.1);
@@ -60,7 +55,7 @@ a:link {
   color: black;
 }
 a:visited {
-  color: rgb(99, 99, 111);
+  color: rgb(255, 255, 255);
 }
 a:active {
   color: darkorange;
@@ -71,11 +66,10 @@ a:active {
 .paragrah-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.paragrah-container div {
-  gap: 15px;
+  gap: 50px 80px;
   padding-top: 2rem;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .loan-admin {
@@ -105,25 +99,42 @@ a:active {
   grid-column: ;
 } */
 
-.other-services {
-  grid-row: span 3;
-  padding-bottom: 50px;
+.button1 {
+  background-color: rgb(204, 222, 247);
+  border: none;
+  color: rgb(34, 39, 43);
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 40px;
+  transition-duration: 0.5;
+  padding: 10px;
   justify-content: center;
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+*/
 
 /* FOOTER */
 .footer-container {
-  width: 100%;
-  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
   font-size: 1.2rem;
   font-family: "Signika Negative", sans-serif;
   background-color: rgb(162, 74, 7);
   color: white;
-  padding: 2rem;
+  cursor: pointer;
 }
 
+.footer-container a {
+  cursor: pointer;
+}
 .footer div {
   padding-top: 2rem;
 }
@@ -132,9 +143,10 @@ a:active {
   justify-content: left;
 }
 
-.social-media-wrapper {
+.social-media-wrapper:hover i {
   display: flex;
   font-size: 30px;
+  cursor: pointer;
   justify-content: space-between;
 }
 
