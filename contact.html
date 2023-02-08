@@ -44,15 +44,42 @@
     <div class="contact-container">
     <div class="contact-form">Contact Us</div>
     <div class="contact-container">
-      <label for="fname">First Name</label>
+      <div class="name"> <label for="fname">First Name</label>
       <input type="text" id="fname" name="firstname" />
       <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" />
+      <input type="text" id="lname" name="lastname" /></div>
 
-      <label for="reason">Tell us briefly what you are inquiring about:</label>
-      <input type="text" id="reason" name="description" />
+      <div class="name"> <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phonenumber" />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="Email" /></div>
 
-      <input type="submit" value="Submit" />
+        <form>
+          <p>Select preferred contact method:</p>
+          <input type="radio" id="text" name="contactme" value="text">
+          <label for="text">Text</label><br>
+          <input type="radio" id="email" name="contactme" value="email">
+          <label for="email">Email</label><br>  
+          <input type="radio" id="phone" name="contactme" value="phone">
+          <label for="phone">Phone</label><br><br>
+          </form>
+
+      <div class="reason"><label for="reason">Tell us briefly what you are inquiring about:</label></div>
+      <div class="textbox">
+      <textarea id="reason" name="reason" rows="8" cols="50"></textarea> </div>
+
+      <div class="submit"><input type="submit" value="SEND" /></div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer">&copy; Slopeside Loan Administration</div>
+      <div class="footer">FUUP Compliance<br />Legal</div>
+      <div class="social-media-wrapper">
+        <i class="fa-brands fa-square-facebook"></i
+        ><i class="fa-brands fa-instagram"></i
+        ><i class="fa-brands fa-linkedin"></i>
+      </div>
+      <a hef="#">Back to top</a>
     </div>
   </body>
 </html>

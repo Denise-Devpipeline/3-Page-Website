@@ -41,7 +41,35 @@ a:active {
 }
 
 .contact-container {
-  background-color: rgb(171, 158, 94);
+  background-color: rgb(157, 187, 209);
+
+  font-family: "Signika Negative", sans-serif;
+
+  margin: auto;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+.name {
+  align-items: center;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.radio input {
+  text-align: left;
+  display: block;
+}
+
+.submit {
+  padding-bottom: 50px;
 }
 
 /* FOOTER */

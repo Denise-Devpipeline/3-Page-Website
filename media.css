@@ -1,6 +1,26 @@
-/* @media (max-width: 600px) {
-  .nabar {
+@media (max-width: 1024px) {
+  .top-navigation
+    .image-container
+    .image-content
+    .paragraph-container
+    .paragraph
+    .services
+    .footer-container {
     flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 100px) {
+  .top-navigation
+    .image-container
+    .image-content
+    .paragraph-container
+    .paragraphs
+    .services
+    .footer-container {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
@@ -16,8 +36,4 @@
   } */
 
 /* Another break point */
-/* @media (min-width: 300px) {
-  .nabar {
-    flex-direction: column;
-  }
-} */
+/* */

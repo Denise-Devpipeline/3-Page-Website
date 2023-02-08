@@ -41,7 +41,7 @@ a:link {
   color: black;
 }
 a:visited {
-  color: rgb(202, 202, 202);
+  color: rgb(55, 57, 55);
 }
 a:active {
   color: darkorange;
@@ -103,5 +103,7 @@ a:active {
 .footer .social-media-wrapper {
   display: grid;
   font-size: 30px;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
